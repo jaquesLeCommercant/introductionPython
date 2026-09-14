@@ -1,0 +1,7 @@
+print("Hey ! What's your name ?")
+name = input()
+print("Nice. How old are you ?")
+age = input()
+print("Great ! Where do you live ?\nDon't worry I wont break in your house while you sleep and burn it down to ashes...")
+location = input()
+print("Your name is " + name + ", you're " + age + " years old, and you live in " + location + ".\nYou were one of the easiest persons to dox, it's really sad.")
