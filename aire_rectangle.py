@@ -1,0 +1,5 @@
+print("Yo ! Gimme the length of your rectangle, and I'll calculate its area.\nSend the length here. It must be an integer (I'm lazy).")
+length = int(input())
+print("The lenght is "+str(length)+"\n\nOkay, I was kinda lying... To calculate the area, I also need the height.\nSend the height here. It must be an integer.")
+height = int(input())
+print("The area of your rectangle is "+str(height*length))
