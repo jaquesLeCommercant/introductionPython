@@ -1,0 +1,7 @@
+print("Yo ! Type some numbers (integers please), and I'll find the highest and lowest value in the list\nType your first number here:")
+n1 = int(input())
+print("Type your second number here:")
+n2 = int(input())
+print("Type your third number here:")
+n3 = int(input())
+print("The highest value is "+ str(max(n1, n2, n3)) + "\nThe lowest value is "+ str(min(n1, n2, n3)))
