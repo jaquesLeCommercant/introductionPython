@@ -12,7 +12,7 @@ while running_program :
         else :
             continue
     times_ran += 1
-    result = round((result + int(answer))/times_ran)
+    result = round((result + int(answer))/times_ran, 1)
     
 print(f"The average is {result}/20.")
     
