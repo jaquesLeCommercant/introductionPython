@@ -13,5 +13,9 @@ while True :
     else :
         print("Invalid value.")
 
-result = round(summ / counter , 1)
-print(f"The average is {result}/20.")
+
+if counter > 0 :
+    result = round(summ / counter , 1)
+    print(f"The average is {result}/20.")
+else :
+    print("No scores were entered.")
